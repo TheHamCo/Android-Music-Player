@@ -9,7 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.example.android.musicplayer.SongsActivity">
-
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam aspernatur atque esse, eum excepturi exercitationem modi nihil officiis temporibus!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
