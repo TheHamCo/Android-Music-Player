@@ -15,28 +15,32 @@
         android:layout_height="wrap_content"
         android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam cupiditate eaque facere laborum quas qui rem repellendus similique vitae."
         android:layout_marginBottom="16dp"/>
-    <LinearLayout
-        android:id="@+id/playlist_or_album"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <TextView
-            style="@style/CategoryStyle"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/playlist_or_album"
             android:layout_width="match_parent"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/colorPrimary"
-            android:text="Album/Playlist 1" />
-        <TextView
-            style="@style/CategoryStyle"
-            android:layout_width="match_parent"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/colorPrimary"
-            android:text="Album/Playlist 2" />
-        <TextView
-            style="@style/CategoryStyle"
-            android:layout_width="match_parent"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/colorPrimary"
-            android:text="Album/Playlist 3" />
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                style="@style/CategoryStyle"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="Album/Playlist 1" />
+            <TextView
+                style="@style/CategoryStyle"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="Album/Playlist 2" />
+            <TextView
+                style="@style/CategoryStyle"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="Album/Playlist 3" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

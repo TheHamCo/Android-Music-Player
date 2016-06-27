@@ -13,6 +13,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Now Playing Routing
+        TextView nowPlaying = (TextView)findViewById(R.id.now_playing);
+        if (nowPlaying != null) {
+            nowPlaying.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent nowPlayingIntent = new Intent(MainActivity.this, PlayerActivity.class);
+                    startActivity(nowPlayingIntent);
+                }
+            });
+        }
+
         //Recently Played Routing
         TextView recentlyPlayed = (TextView)findViewById(R.id.recently_played);
         if (recentlyPlayed != null) {

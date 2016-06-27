@@ -15,6 +15,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@color/colorAccent">
+            <TextView
+                android:id="@+id/now_playing"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="Now Playing" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:background="@color/colorPrimary">
             <TextView
                 android:id="@+id/recently_played"
