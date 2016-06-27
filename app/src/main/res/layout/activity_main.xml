@@ -10,7 +10,7 @@
     <TextView
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam aspernatur atque esse, eum excepturi exercitationem modi nihil officiis temporibus!"
+        android:text="EXPLANATION:  This app plays songs that are on the memory of the phone.  This main menu is a static list leading to various methods of finding music."
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <ScrollView
