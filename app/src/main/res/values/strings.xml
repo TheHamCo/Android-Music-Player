@@ -5,4 +5,5 @@
     <string name="albums">Albums</string>
     <string name="songs">Songs</string>
     <string name="albums_playlists">Albums/Playlists</string>
+    <string name="player">Music Player</string>
 </resources>
