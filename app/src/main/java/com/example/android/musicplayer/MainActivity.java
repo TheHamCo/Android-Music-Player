@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Now Playing Routing
+        //Now Playing Routes to the player
         TextView nowPlaying = (TextView)findViewById(R.id.now_playing);
         if (nowPlaying != null) {
             nowPlaying.setOnClickListener(new View.OnClickListener() {
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        //Recently Played Routing
+        //Recently Played Routes to an album/playlist list
         TextView recentlyPlayed = (TextView)findViewById(R.id.recently_played);
         if (recentlyPlayed != null) {
             recentlyPlayed.setOnClickListener(new View.OnClickListener() {
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        //Artists Routing
+        //Artists Routes to the artist's albums
         TextView artists = (TextView)findViewById(R.id.artists);
         if (artists != null) {
             artists.setOnClickListener(new View.OnClickListener() {
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        //Albums Routing
+        //Albums Routes to an album/playlist list
         TextView  albums = (TextView)findViewById(R.id.albums);
         if (albums != null) {
             albums.setOnClickListener(new View.OnClickListener() {
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        //Playlists Routing
+        //Playlists Routes to an album/playlist list
         TextView playlists = (TextView)findViewById(R.id.playlists);
         if (playlists != null) {
             playlists.setOnClickListener(new View.OnClickListener() {

@@ -12,6 +12,7 @@ public class SongsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_songs);
 
+        // List of songs
         View songList = (View)findViewById(R.id.song_list);
         if (songList != null) {
             songList.setOnClickListener(new View.OnClickListener() {

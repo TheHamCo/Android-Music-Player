@@ -12,6 +12,7 @@ public class PlaylistsOrAlbumsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playlists_or_albums);
 
+        //Playlist or Album routes to a detailed view of that playlist or album
         View playlistOrAlbum = (View)findViewById(R.id.playlist_or_album);
         if (playlistOrAlbum != null) {
             playlistOrAlbum.setOnClickListener(new View.OnClickListener() {
