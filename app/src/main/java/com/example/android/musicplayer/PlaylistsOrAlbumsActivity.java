@@ -3,11 +3,11 @@ package com.example.android.musicplayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class PlaylistsActivity extends AppCompatActivity {
+public class PlaylistsOrAlbumsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_playlists);
+        setContentView(R.layout.activity_playlists_or_albums);
     }
 }

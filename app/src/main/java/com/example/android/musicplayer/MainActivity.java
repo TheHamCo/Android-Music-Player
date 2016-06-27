@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     // Create a new intent to open the {@link FamilyActivity}
-                    Intent recentlyPlayedIntent = new Intent(MainActivity.this, RecentlyPlayedActivity.class);
+                    Intent recentlyPlayedIntent = new Intent(MainActivity.this, PlaylistsOrAlbumsActivity.class);
 
                     // Start the new activity
                     startActivity(recentlyPlayedIntent);
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     // Create a new intent to open the {@link FamilyActivity}
-                    Intent artistsIntent = new Intent(MainActivity.this, ArtistsActivity.class);
+                    Intent artistsIntent = new Intent(MainActivity.this, AlbumDetailActivity.class);
 
                     // Start the new activity
                     startActivity(artistsIntent);
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     // Create a new intent to open the {@link FamilyActivity}
-                    Intent albumsIntent = new Intent(MainActivity.this, AlbumsActivity.class);
+                    Intent albumsIntent = new Intent(MainActivity.this, PlaylistsOrAlbumsActivity.class);
 
                     // Start the new activity
                     startActivity(albumsIntent);
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     // Create a new intent to open the {@link FamilyActivity}
-                    Intent playlistsIntent = new Intent(MainActivity.this, PlaylistsActivity.class);
+                    Intent playlistsIntent = new Intent(MainActivity.this, PlaylistsOrAlbumsActivity.class);
 
                     // Start the new activity
                     startActivity(playlistsIntent);

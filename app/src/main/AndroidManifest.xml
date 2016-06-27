@@ -15,25 +15,8 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".RecentlyPlayedActivity"
-            android:label="@string/recently_played"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-
-        <activity android:name=".ArtistsActivity"
+        <activity android:name=".AlbumDetailActivity"
             android:label="@string/artists"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-
-        <activity android:name=".AlbumsActivity"
-            android:label="@string/albums"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -48,8 +31,8 @@
                 android:value=".MainActivity" />
         </activity>
 
-        <activity android:name=".PlaylistsActivity"
-            android:label="@string/playlists"
+        <activity android:name=".PlaylistsOrAlbumsActivity"
+            android:label="@string/albums_playlists"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
