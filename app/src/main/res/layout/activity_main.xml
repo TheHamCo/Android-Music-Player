@@ -2,6 +2,7 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark"
     android:layout_height="match_parent"
     android:layout_width="match_parent">
     <LinearLayout
@@ -10,15 +11,15 @@
         android:orientation="vertical"
         tools:context="com.example.android.musicplayer.MainActivity">
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimary">
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/colorPrimary">-->
             <TextView
-                android:id="@+id/numbers"
+                android:id="@+id/recently_played"
                 style="@style/CategoryStyle"
                 android:background="?android:attr/selectableItemBackground"
                 android:text="Recently Played" />
-        </FrameLayout>
+        <!--</FrameLayout>-->
     </LinearLayout>
 </ScrollView>
