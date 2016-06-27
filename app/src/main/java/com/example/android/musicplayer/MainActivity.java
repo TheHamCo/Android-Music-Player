@@ -3,7 +3,6 @@ package com.example.android.musicplayer;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -20,12 +19,71 @@ public class MainActivity extends AppCompatActivity {
             recentlyPlayed.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Log.v("Clicklistener","CLICKED!");
                     // Create a new intent to open the {@link FamilyActivity}
                     Intent recentlyPlayedIntent = new Intent(MainActivity.this, RecentlyPlayedActivity.class);
 
                     // Start the new activity
                     startActivity(recentlyPlayedIntent);
+                }
+            });
+        }
+
+        //Artists Routing
+        TextView artists = (TextView)findViewById(R.id.artists);
+        if (artists != null) {
+            artists.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Create a new intent to open the {@link FamilyActivity}
+                    Intent artistsIntent = new Intent(MainActivity.this, ArtistsActivity.class);
+
+                    // Start the new activity
+                    startActivity(artistsIntent);
+                }
+            });
+        }
+
+        //Albums Routing
+        TextView  albums = (TextView)findViewById(R.id.albums);
+        if (albums != null) {
+            albums.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Create a new intent to open the {@link FamilyActivity}
+                    Intent albumsIntent = new Intent(MainActivity.this, AlbumsActivity.class);
+
+                    // Start the new activity
+                    startActivity(albumsIntent);
+                }
+            });
+        }
+
+        //Songs Routing
+        TextView songs = (TextView)findViewById(R.id.songs);
+        if (songs != null) {
+            songs.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Create a new intent to open the {@link FamilyActivity}
+                    Intent songsIntent = new Intent(MainActivity.this, SongsActivity.class);
+
+                    // Start the new activity
+                    startActivity(songsIntent);
+                }
+            });
+        }
+
+        //Playlists Routing
+        TextView playlists = (TextView)findViewById(R.id.playlists);
+        if (playlists != null) {
+            playlists.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Create a new intent to open the {@link FamilyActivity}
+                    Intent playlistsIntent = new Intent(MainActivity.this, PlaylistsActivity.class);
+
+                    // Start the new activity
+                    startActivity(playlistsIntent);
                 }
             });
         }
