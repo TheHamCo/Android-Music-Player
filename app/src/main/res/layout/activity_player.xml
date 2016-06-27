@@ -62,7 +62,7 @@
     <TextView
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam aspernatur atque esse, eum excepturi exercitationem modi nihil officiis temporibus!"
+        android:text="EXPLANATION: This is the main music player.  It should use the MediaPlayer class to start and pause songs and keep track of song position/duration."
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

@@ -129,7 +129,7 @@
     <TextView
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam aspernatur atque esse, eum excepturi exercitationem modi nihil officiis temporibus!"
+        android:text="EXPLANATION: This contains a list of songs categorized by album or playlist, depending on the parent view.  It should use a ListView and ViewAdapter to properly list the songs dynamically."
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

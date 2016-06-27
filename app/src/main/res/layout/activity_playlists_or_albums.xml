@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam cupiditate eaque facere laborum quas qui rem repellendus similique vitae."
+        android:text="EXPLANATION: This contains a list of all albums, all playlists, or albums of a particular artist, depending on the parent view.  It should use a ListView and ViewAdapter to properly list the albums/playlists dynamically."
         android:layout_marginBottom="16dp"/>
     <ScrollView
         android:layout_width="match_parent"
